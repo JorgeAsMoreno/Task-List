@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css'
 
 type FormElement = React.FormEvent<HTMLFormElement>
-
 interface ITask {
   name: string;
   done: boolean;
